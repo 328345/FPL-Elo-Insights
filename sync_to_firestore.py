@@ -6,7 +6,7 @@ import sys
 
 # List of CSV files to sync. The script will create a collection with the same name as the file base name.
 # e.g., 'elo_ratings.csv' will be uploaded to the 'elo_ratings' collection.
-FILES_TO_SYNC = ['elo_ratings.csv', 'team_ratings.csv', 'upcoming_fixtures.csv']
+FILES_TO_SYNC = ['data/elo_ratings.csv', 'data/team_ratings.csv', 'data/upcoming_fixtures.csv']
 
 def sync_csv_to_firestore(file_path):
     """
