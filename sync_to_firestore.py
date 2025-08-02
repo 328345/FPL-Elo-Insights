@@ -78,4 +78,11 @@ if __name__ == "__main__":
         'matches.csv',
         'playermatchstats.csv',
         'players.csv',
-        'playerstats
+        'playerstats.csv',
+        'teams.csv'
+    ]
+
+    # Loop through and sync each file
+    for filename in files_to_sync:
+        full_file_path = os.path.join(final_path, filename)
+        sync_csv_to_firestore(full_file_path)
