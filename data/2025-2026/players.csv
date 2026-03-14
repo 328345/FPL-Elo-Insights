@@ -225,6 +225,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 122798,372,Andrew,Robertson,Robertson,14,Defender
 97032,373,Virgil,van Dijk,Virgil,14,Defender
 204716,374,Ibrahima,Konaté,Konaté,14,Defender
+171287,376,Joe,Gomez,Gomez,14,Defender
 214285,377,Konstantinos,Tsimikas,Tsimikas,14,Defender
 611926,378,Amara,Nallo,Nallo,14,Defender
 219937,379,Rhys,Williams,R.Williams,14,Defender
@@ -281,7 +282,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 559684,464,Jack,Moorhouse,Moorhouse,1,Midfielder
 596047,467,Chido,Obi,Obi,1,Forward
 575034,468,Ethan,Wheatley,Wheatley,1,Forward
-465247,733,Senne,Lammens,Lammens,1,Goalkeeper
 209243,456,Jadon,Sancho,Sancho,7,Midfielder
 481283,688,James,Wright,Wright,7,Goalkeeper
 564505,703,Sam,Proctor,Proctor,7,Goalkeeper
@@ -331,8 +331,8 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 240514,142,Kjell,Scherpen,Scherpen,36,Goalkeeper
 204120,143,Olivier,Boscagli,Boscagli,36,Defender
 550090,144,Diego,Coppola,Coppola,36,Defender
+465247,733,Senne,Lammens,Lammens,1,Goalkeeper
 576628,755,Shea,Lacey,Lacey,1,Midfielder
-547027,544,Habib,Diarra,Diarra,56,Midfielder
 180804,198,Axel,Tuanzebe,Tuanzebe,90,Defender
 444180,200,Jaidon,Anthony,Anthony,90,Midfielder
 179458,202,Jacob,Bruun Larsen,Bruun Larsen,90,Midfielder
@@ -505,7 +505,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 466525,660,Anton,Stach,Stach,2,Midfielder
 201595,665,Lucas Estella,Perri,Perri,2,Goalkeeper
 435997,698,Noah,Okafor,Okafor,2,Midfielder
-171287,376,Joe,Gomez,Gomez,14,Defender
 477555,424,Oscar,Bobb,Bobb,54,Midfielder
 492777,375,Conor,Bradley,Bradley,14,Defender
 126184,405,Nathan,Aké,Aké,43,Defender
@@ -655,6 +654,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 434399,541,Reinildo,Mandava,Reinildo,56,Defender
 519634,542,Jenson,Seelt,Seelt,56,Defender
 535818,543,Simon,Adingra,Adingra,56,Midfielder
+547027,544,Habib,Diarra,Diarra,56,Midfielder
 242898,580,Brennan,Johnson,Johnson,31,Midfielder
 124165,545,Patrick,Roberts,Roberts,56,Midfielder
 626844,546,Milan,Aleksić,Aleksić,56,Midfielder
