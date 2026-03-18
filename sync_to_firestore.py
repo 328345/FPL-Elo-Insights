@@ -79,23 +79,27 @@ if __name__ == "__main__":
     
     print(f"Found latest season: {latest_season}")
 
-    # 2. Get all gameweek folders for that season
+    # 2. Find the latest gameweek folder (highest GW number)
     gameweek_base_path = os.path.join(base_data_path, latest_season, 'By Gameweek')
     if not os.path.isdir(gameweek_base_path):
         print(f"Error: 'By Gameweek' directory not found at '{gameweek_base_path}'")
         sys.exit(1)
-        
+
     gameweek_folders = [gw for gw in os.listdir(gameweek_base_path) if os.path.isdir(os.path.join(gameweek_base_path, gw))]
-    print(f"Found gameweek folders to process: {gameweek_folders}")
+    if not gameweek_folders:
+        print("Error: No gameweek folders found.")
+        sys.exit(1)
 
-    # 3. Loop through each gameweek folder
-    for gw_folder in gameweek_folders:
-        current_path = os.path.join(gameweek_base_path, gw_folder)
-        print(f"\n--- Processing Gameweek: {gw_folder} ---")
+    # Sort by gameweek number to find the latest
+    gameweek_folders.sort(key=lambda x: int(re.search(r'\d+', x).group()))
+    latest_gw = gameweek_folders[-1]
+    print(f"Found {len(gameweek_folders)} gameweek folders. Syncing only the latest: {latest_gw}")
 
-        # 4. Loop through each CSV file in the current gameweek folder
-        for filename in os.listdir(current_path):
-            if filename.endswith('.csv'):
-                full_file_path = os.path.join(current_path, filename)
-                # Pass the gameweek folder name (e.g., 'GW0') to the sync function
-                sync_csv_to_firestore(full_file_path, gw_folder)
+    # 3. Sync only the latest gameweek
+    current_path = os.path.join(gameweek_base_path, latest_gw)
+    print(f"\n--- Processing Gameweek: {latest_gw} ---")
+
+    for filename in os.listdir(current_path):
+        if filename.endswith('.csv'):
+            full_file_path = os.path.join(current_path, filename)
+            sync_csv_to_firestore(full_file_path, latest_gw)
