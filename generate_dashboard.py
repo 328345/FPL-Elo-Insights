@@ -246,9 +246,52 @@ def generate_html(data):
   .tabs { display: flex; gap: 4px; margin-bottom: 16px; flex-wrap: wrap; }
   .tab { padding: 6px 14px; border-radius: 6px; font-size: 12px; cursor: pointer; background: var(--surface2); color: var(--text2); border: 1px solid var(--border); }
   .tab.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+  /* Mobile hamburger */
+  #mobile-header { display: none; position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--surface); border-bottom: 1px solid var(--border); padding: 10px 16px; align-items: center; gap: 12px; }
+  #menu-btn { background: none; border: 1px solid var(--border); color: var(--text); font-size: 20px; padding: 4px 10px; border-radius: 6px; cursor: pointer; line-height: 1; }
+  #mobile-header .mobile-title { font-size: 15px; font-weight: 700; color: var(--accent); }
+  #sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 199; }
+
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    #mobile-header { display: flex; }
+    #app { flex-direction: column; }
+    #sidebar { position: fixed; top: 0; left: -280px; width: 270px; min-width: 270px; height: 100vh; z-index: 200; transition: left .25s ease; }
+    #sidebar.open { left: 0; }
+    #sidebar-overlay.open { display: block; }
+    #main { padding: 60px 12px 16px; width: 100%; overflow-x: hidden; }
+    h2 { font-size: 18px; }
+    .subtitle { font-size: 12px; }
+    .controls { flex-direction: column; align-items: stretch; }
+    .controls input[type=text] { width: 100%; }
+    .controls select { width: 100%; }
+    .player-sel-group { flex-direction: column; }
+    .player-sel-group select { min-width: unset; width: 100%; }
+    .chart-row { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); }
+    .card .card-value { font-size: 17px; }
+    table { font-size: 12px; }
+    thead th { padding: 7px 6px; font-size: 10px; }
+    tbody td { padding: 6px; font-size: 11px; }
+    .legend { font-size: 10px; }
+    .fx-table { font-size: 11px; }
+    .fx-table th, .fx-table td { padding: 5px 4px; }
+  }
+  @media (max-width: 480px) {
+    #main { padding: 56px 8px 12px; }
+    .cards { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .card { padding: 10px; }
+  }
 </style>
 </head>
 <body>
+<div id="mobile-header">
+  <button id="menu-btn" onclick="toggleSidebar()">☰</button>
+  <span class="mobile-title">⚽ FPL Insights</span>
+  <span class="gw-badge" style="margin:0;">GW__CURRENT_GW__</span>
+</div>
+<div id="sidebar-overlay" onclick="toggleSidebar()"></div>
 <div id="app">
   <div id="sidebar">
     <h1>⚽ FPL Insights</h1>
@@ -456,6 +499,18 @@ def generate_html(data):
 </div>
 
 <script>
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebar-overlay').classList.toggle('open');
+}
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    if (window.innerWidth <= 768) {
+      document.getElementById('sidebar').classList.remove('open');
+      document.getElementById('sidebar-overlay').classList.remove('open');
+    }
+  });
+});
 const RAW_DATA = __DATA_JSON__;
 const DATA = RAW_DATA.players;
 const FIXTURES = RAW_DATA.fixtures;
