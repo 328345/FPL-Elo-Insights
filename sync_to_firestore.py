@@ -90,10 +90,20 @@ if __name__ == "__main__":
         print("Error: No gameweek folders found.")
         sys.exit(1)
 
-    # Sort by gameweek number to find the latest
+    # Find the latest gameweek that has finished matches
     gameweek_folders.sort(key=lambda x: int(re.search(r'\d+', x).group()))
-    latest_gw = gameweek_folders[-1]
-    print(f"Found {len(gameweek_folders)} gameweek folders. Syncing only the latest: {latest_gw}")
+    latest_gw = None
+    for gw in reversed(gameweek_folders):
+        matches_file = os.path.join(gameweek_base_path, gw, 'matches.csv')
+        if os.path.exists(matches_file):
+            matches_df = pd.read_csv(matches_file)
+            if matches_df['finished'].any():
+                latest_gw = gw
+                break
+    if not latest_gw:
+        print("Error: No gameweek with finished matches found.")
+        sys.exit(1)
+    print(f"Found {len(gameweek_folders)} gameweek folders. Syncing latest with finished matches: {latest_gw}")
 
     # 3. Sync only the latest gameweek
     current_path = os.path.join(gameweek_base_path, latest_gw)
