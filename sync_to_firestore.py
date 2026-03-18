@@ -105,7 +105,16 @@ if __name__ == "__main__":
         sys.exit(1)
     print(f"Found {len(gameweek_folders)} gameweek folders. Syncing latest with finished matches: {latest_gw}")
 
-    # 3. Sync only the latest gameweek
+    # 3. Check if this gameweek is already synced to Firestore
+    db = firestore.Client()
+    gw_doc_ref = db.collection('gameweeks').document(latest_gw)
+    # Check if any subcollection has data (use 'matches' as the indicator)
+    existing_docs = list(gw_doc_ref.collection('matches').limit(1).stream())
+    if existing_docs:
+        print(f"⏭️  {latest_gw} already synced to Firestore. Skipping.")
+        sys.exit(0)
+
+    # 4. Sync only the latest gameweek
     current_path = os.path.join(gameweek_base_path, latest_gw)
     print(f"\n--- Processing Gameweek: {latest_gw} ---")
 
