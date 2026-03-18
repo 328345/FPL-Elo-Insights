@@ -1,0 +1,3 @@
+[build]
+  publish = "public"
+  command = "mkdir -p public && cp dashboard.html public/index.html"
