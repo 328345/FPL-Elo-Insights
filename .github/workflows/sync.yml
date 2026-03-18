@@ -12,6 +12,7 @@ on:
 jobs:
   sync-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: 'read'
       id-token: 'write'
