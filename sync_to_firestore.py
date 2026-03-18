@@ -43,10 +43,15 @@ def sync_csv_to_firestore(file_path, gameweek_name):
 
     # Clear the existing subcollection before upload
     batch = db.batch()
+    delete_count = 0
     for doc in subcollection_ref.stream():
         batch.delete(doc.reference)
+        delete_count += 1
+        if delete_count % 499 == 0:
+            batch.commit()
+            batch = db.batch()
     batch.commit()
-    print(f"Cleared existing documents in '{subcollection_name}'.")
+    print(f"Cleared {delete_count} existing documents in '{subcollection_name}'.")
 
     # Upload new data
     batch = db.batch()
