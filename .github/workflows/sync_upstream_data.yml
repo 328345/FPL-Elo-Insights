@@ -1,0 +1,41 @@
+name: Sync Data from Upstream
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # Daily at 6:00 AM UTC
+    - cron: '0 17 * * *'  # Daily at 5:00 PM UTC
+  workflow_dispatch:
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch latest data from upstream
+        run: |
+          git remote add upstream https://github.com/olbauday/FPL-Elo-Insights.git || true
+          git fetch upstream main
+
+      - name: Update data folder from upstream
+        run: |
+          git checkout upstream/main -- data/
+
+      - name: Regenerate dashboard
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy
+          python generate_dashboard.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ dashboard.html
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Sync upstream data $(date +'%Y-%m-%d %H:%M UTC')" && git push)
