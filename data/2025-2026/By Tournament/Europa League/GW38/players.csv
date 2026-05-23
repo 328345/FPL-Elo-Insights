@@ -5,7 +5,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 616065,759,Marli,Salmon,Salmon,3,Defender
 645618,702,Bradley,Burrowes,Burrowes,7,Midfielder
 184667,719,Victor,Lindelöf,Lindelöf,7,Defender
-204214,147,Pervis,Estupiñán Tenorio,Estupiñan,36,Defender
 231416,148,Ferdi,Kadıoğlu,F.Kadıoğlu,36,Defender
 232792,150,Tariq,Lamptey,Lamptey,36,Defender
 469142,151,Jan Paul,van Hecke,Van Hecke,36,Defender
@@ -94,9 +93,9 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 590012,265,Caleb,Kporha,Kporha,31,Defender
 232185,267,Ismaïla,Sarr,Sarr,31,Midfielder
 438464,268,Cheick,Doucouré,Doucouré,31,Midfielder
+606921,269,Romain,Esse,Esse,31,Midfielder
 577285,754,George,Hemmings,George Hemmings,7,Midfielder
 516875,757,Ronnie,Hollingshead,Hollingshead,7,Goalkeeper
-606921,269,Romain,Esse,Esse,31,Midfielder
 108413,270,Will,Hughes,Hughes,31,Midfielder
 209400,271,Daichi,Kamada,Kamada,31,Midfielder
 152551,272,Jefferson,Lerma Solís,Lerma,31,Midfielder
@@ -195,6 +194,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 200617,353,Daniel,James,James,2,Midfielder
 199598,354,Ethan,Ampadu,Ampadu,2,Midfielder
 248937,355,Sam,Greenwood,Greenwood,2,Midfielder
+486520,356,Ilia,Gruev,Gruev,2,Midfielder
 224117,666,Viktor,Gyökeres,Gyökeres,3,Forward
 616077,700,Max,Dowman,Dowman,3,Midfielder
 646243,711,Andre,Harriman-Annous,Harriman-Annous,3,Midfielder
@@ -213,7 +213,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 550090,144,Diego,Coppola,Coppola,36,Defender
 465730,145,Maxim,De Cuyper,De Cuyper,36,Defender
 83299,146,Lewis,Dunk,Dunk,36,Defender
-486520,356,Ilia,Gruev,Gruev,2,Midfielder
+204214,147,Pervis,Estupiñán Tenorio,Estupiñan,36,Defender
 433952,357,Largie,Ramazani,Ramazani,2,Midfielder
 248056,358,Tanaka,Ao,Tanaka,2,Midfielder
 536119,359,Charlie,Crew,Crew,2,Midfielder
@@ -227,7 +227,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 577978,838,Rhys,Chadwick,Chadwick,2,Midfielder
 449027,367,Giorgi,Mamardashvili,Mamardashvili,14,Goalkeeper
 155503,369,Freddie,Woodman,Woodman,14,Goalkeeper
-216094,370,Jeremie,Frimpong,Frimpong,14,Defender
 544877,371,Milos,Kerkez,Kerkez,14,Defender
 122798,372,Andrew,Robertson,Robertson,14,Defender
 97032,373,Virgil,van Dijk,Virgil,14,Defender
@@ -503,6 +502,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 592740,839,Alfie,Cresswell,Cresswell,2,Midfielder
 116535,366,Alisson,Becker,A.Becker,14,Goalkeeper
 586268,368,Ármin,Pécsi,Pécsi,14,Goalkeeper
+216094,370,Jeremie,Frimpong,Frimpong,14,Defender
 477555,424,Oscar,Bobb,Bobb,54,Midfielder
 492777,375,Conor,Bradley,Bradley,14,Defender
 126184,405,Nathan,Aké,Aké,43,Defender
