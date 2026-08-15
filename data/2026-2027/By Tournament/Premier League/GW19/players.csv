@@ -41,6 +41,8 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 561245,81,Álvaro,Rodríguez,Rodríguez,91,Forward
 483067,566,António João,Pereira de Albuquerque Tavares da Silva,Silva,91,Defender
 200720,82,Caoimhín,Kelleher,Kelleher,94,Goalkeeper
+507433,83,Hákon Rafn,Valdimarsson,Valdimarsson,94,Goalkeeper
+85633,467,Matz,Sels,Sels,17,Goalkeeper
 154561,1,David,Raya Martín,Raya,3,Goalkeeper
 109745,2,Kepa,Arrizabalaga Revuelta,Arrizabalaga,3,Goalkeeper
 437495,3,Illan,Meslier,Meslier,3,Goalkeeper
@@ -82,7 +84,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 195546,41,Emiliano,Buendía Stati,Buendía,7,Midfielder
 560262,78,Junior,Kroupi,Kroupi.Jr,91,Midfielder
 494928,573,Juanlu,Sánchez,Sanchez,91,Defender
-507433,83,Hákon Rafn,Valdimarsson,Valdimarsson,94,Goalkeeper
 432830,84,Nathan,Collins,Collins,94,Defender
 444765,85,Sepp,van den Berg,Van den Berg,94,Defender
 249231,86,Keane,Lewis-Potter,Lewis-Potter,94,Midfielder
@@ -497,7 +498,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 599303,466,Sean,Neave,Neave,4,Forward
 632794,559,Aladji,Bamba,Bamba,4,Midfielder
 470551,567,Lukás,Hornícek,Horníček,4,Goalkeeper
-85633,467,Matz,Sels,Sels,17,Goalkeeper
 221389,468,John Victor,Maciel Furtado,John,17,Goalkeeper
 215136,469,Neco,Williams,N.Williams,17,Defender
 485047,470,Felipe,Rodrigues da Silva,Morato,17,Defender
