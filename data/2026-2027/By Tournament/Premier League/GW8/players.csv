@@ -2,7 +2,9 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 208706,452,Bruno,Guimarães Rodriguez Moura,Bruno G.,3,Midfielder
 487992,596,Matteo,Ruggeri,Ruggeri,7,Defender
 570241,92,Kim,Ji-soo,Ji-soo,94,Defender
+83299,116,Lewis,Dunk,Dunk,36,Defender
 690838,582,Brian,Madjo,Madjo,7,Forward
+500957,298,Enis,Destan,Destan,88,Forward
 513086,93,Jannik,Schuster,Schuster,94,Defender
 513418,94,Kevin,Schade,Schade,94,Midfielder
 439509,557,Christos,Tzolis,Tzolis,3,Midfielder
@@ -53,7 +55,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 194010,89,Rico,Henry,Henry,94,Defender
 472713,90,Aaron,Hickey,Hickey,94,Defender
 231065,91,Ethan,Pinnock,Pinnock,94,Defender
-533463,95,Dango,Ouattara,O.Dango,94,Midfielder
 154561,1,David,Raya Martín,Raya,3,Goalkeeper
 109745,2,Kepa,Arrizabalaga Revuelta,Arrizabalaga,3,Goalkeeper
 437495,3,Illan,Meslier,Meslier,3,Goalkeeper
@@ -97,6 +98,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 494928,573,Juanlu,Sánchez,Sanchez,91,Defender
 432830,84,Nathan,Collins,Collins,94,Defender
 444765,85,Sepp,van den Berg,Van den Berg,94,Defender
+533463,95,Dango,Ouattara,O.Dango,94,Midfielder
 440089,96,Mikkel,Damsgaard,Damsgaard,94,Midfielder
 207283,97,Mathias,Jensen,Jensen,94,Midfielder
 204580,98,Vitaly,Janelt,Janelt,94,Midfielder
@@ -109,13 +111,12 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 75115,108,Callum,Wilson,Wilson,94,Forward
 513545,565,Mamadou,Sangaré,M.Sangaré,94,Midfielder
 489639,109,Bart,Verbruggen,Verbruggen,36,Goalkeeper
-49262,111,Jason,Steele,Steele,36,Goalkeeper
 155408,71,Lewis,Cook,Cook,91,Midfielder
 593174,107,Kaye,Furo,Furo,94,Forward
+49262,111,Jason,Steele,Steele,36,Goalkeeper
 231416,113,Ferdi,Kadıoğlu,F.Kadıoğlu,36,Defender
 204120,114,Olivier,Boscagli,Boscagli,36,Defender
 465730,115,Maxim,De Cuyper,De Cuyper,36,Defender
-83299,116,Lewis,Dunk,Dunk,36,Defender
 550090,117,Diego,Coppola,Coppola,36,Defender
 223434,118,Igor Julio,dos Santos de Paulo,Igor,36,Defender
 451490,119,João Pedro,Loureiro da Costa,Costinha,36,Defender
@@ -316,7 +317,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 243413,290,Regan,Slater,Slater,88,Midfielder
 465525,291,Eliot,Matazo,Matazo,88,Midfielder
 208481,292,Abdülkadir,Ömür,Ömür,88,Midfielder
-500957,298,Enis,Destan,Destan,88,Forward
 534392,299,Mason,Burstow,Burstow,88,Forward
 462635,340,Joe,Gelhardt,Gelhardt,88,Midfielder
 169359,556,Matt,Targett,Targett,88,Defender
@@ -414,6 +414,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 206915,373,Curtis,Jones,C.Jones,14,Midfielder
 158983,374,Endo,Wataru,Endo,14,Midfielder
 591386,375,Trey,Nyoni,Nyoni,14,Midfielder
+444884,383,Harvey,Elliott,Elliott,14,Midfielder
 210156,492,Taiwo,Awoniyi,Awoniyi,9,Forward
 535928,376,Stefan,Bajčetić Maquieira,Bajcetic,14,Midfielder
 551499,377,Victor,Munoz,Munoz,14,Midfielder
@@ -422,7 +423,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 510663,380,Hugo,Ekitiké,Ekitiké,14,Forward
 514514,381,Lewis,Koumas,Koumas,14,Midfielder
 500058,382,Jayden,Danns,Danns,14,Forward
-444884,383,Harvey,Elliott,Elliott,14,Midfielder
 445087,579,Ronald,Araujo,Araujo,14,Defender
 114283,238,Jack,Grealish,Grealish,43,Midfielder
 204936,384,Gianluigi,Donnarumma,Donnarumma,43,Goalkeeper
@@ -508,6 +508,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 636852,462,Sean,Steur,Steur,4,Midfielder
 470313,463,Nick,Woltemade,Woltemade,4,Forward
 216646,464,Yoane,Wissa,Wissa,4,Forward
+640419,509,Jun'ai,Byfield,Byfield,6,Defender
 538207,465,William,Osula,Osula,4,Forward
 599303,466,Sean,Neave,Neave,4,Forward
 632794,559,Aladji,Bamba,Bamba,4,Midfielder
@@ -557,7 +558,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 487053,506,Destiny,Udogie,Udogie,6,Defender
 548308,507,Ashley,Phillips,Phillips,6,Defender
 115556,508,Ben,Davies,Davies,6,Defender
-640419,509,Jun'ai,Byfield,Byfield,6,Defender
 499716,510,James,Rowswell,Rowswell,6,Defender
 616221,511,João Victor,de Souza Menezes,Souza,6,Defender
 460842,512,Mohammed,Kudus,Kudus,6,Midfielder
