@@ -37,7 +37,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 536916,128,Facundo,Buonanotte,Buonanotte,36,Midfielder
 509416,129,Yasin,Ayari,Ayari,36,Midfielder
 467779,130,Mats,Wieffer,Wieffer,36,Defender
-535301,131,Carlos,Baleba,Baleba,36,Midfielder
 597320,132,Harry,Howell,Howell,36,Midfielder
 549074,133,Tom,Watson,Watson,36,Midfielder
 556637,134,Nehemiah,Oriola,Oriola,36,Midfielder
@@ -50,6 +49,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 538007,594,Promise,David,David,36,Forward
 612855,600,Ibrahim,Osman,Osman,36,Midfielder
 611695,605,Malick,Yalcouyé,Yalcouyé,36,Midfielder
+512123,614,Jaouen,Hadjam,Hadjam,36,Defender
 244850,40,Morgan,Rogers,Rogers,8,Midfielder
 56979,101,Jordan,Henderson,Henderson,8,Midfielder
 50175,136,Danny,Welbeck,Welbeck,8,Forward
@@ -354,6 +354,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 215379,481,Elliot,Anderson,Anderson,43,Midfielder
 106921,587,Gerónimo,Rulli,Rulli,43,Goalkeeper
 166989,43,Youri,Tielemans,Tielemans,1,Midfielder
+535301,131,Carlos,Baleba,Baleba,1,Midfielder
 532605,162,Andrey,Nascimento dos Santos,Andrey Santos,1,Midfielder
 59735,325,Karl,Darlow,Darlow,1,Goalkeeper
 465247,412,Senne,Lammens,Lammens,1,Goalkeeper
@@ -401,7 +402,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 232653,456,Jacob,Ramsey,J.Ramsey,4,Midfielder
 114243,457,Jacob,Murphy,J.Murphy,4,Midfielder
 180974,458,Joelinton Cássio,Apolinário de Lira,Joelinton,4,Midfielder
-547719,459,Lewis,Miley,L.Miley,4,Midfielder
 439509,557,Christos,Tzolis,Tzolis,3,Midfielder
 215711,44,Leon,Bailey,Bailey,7,Midfielder
 122806,45,John,McGinn,McGinn,7,Midfielder
@@ -450,7 +450,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 194010,89,Rico,Henry,Henry,94,Defender
 472713,90,Aaron,Hickey,Hickey,94,Defender
 231065,91,Ethan,Pinnock,Pinnock,94,Defender
-441264,552,Brian,Brobbey,Brobbey,56,Forward
 154561,1,David,Raya Martín,Raya,3,Goalkeeper
 109745,2,Kepa,Arrizabalaga Revuelta,Arrizabalaga,3,Goalkeeper
 437495,3,Illan,Meslier,Meslier,3,Goalkeeper
@@ -509,6 +508,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 535928,376,Stefan,Bajčetić Maquieira,Bajcetic,14,Midfielder
 551499,377,Victor,Munoz,Munoz,14,Midfielder
 219168,379,Alexander,Isak,Isak,14,Forward
+547719,459,Lewis,Miley,L.Miley,4,Midfielder
 200089,460,Joe,Willock,Willock,4,Midfielder
 611665,461,Bazoumana,Touré,Touré,4,Midfielder
 636852,462,Sean,Steur,Steur,4,Midfielder
@@ -549,7 +549,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 568420,581,Ousmane,Diomande,Diomande,17,Defender
 428971,590,Steven,Benda,Benda,17,Goalkeeper
 469142,112,Jan Paul,van Hecke,Van Hecke,6,Defender
-510281,403,Sávio,Moreira de Oliveira,Savinho,6,Midfielder
+510281,403,Sávio,Moreira de Oliveira,Sávio,6,Midfielder
 432422,455,Sandro,Tonali,Tonali,6,Midfielder
 184254,494,Guglielmo,Vicario,Vicario,6,Goalkeeper
 214572,495,Brandon,Austin,Austin,6,Goalkeeper
@@ -609,5 +609,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 549912,549,Chemsdine,Talbi,Talbi,56,Midfielder
 699989,550,Djiamgone Jocelin Ta,Bi,Jocelin.T,56,Midfielder
 536661,551,Nilson,Angulo,Angulo,56,Midfielder
+441264,552,Brian,Brobbey,Brobbey,56,Forward
 437505,553,Wilson,Isidor,Isidor,56,Forward
 638411,612,Dayann,Méthalie,Methalie,56,Defender
+696104,613,Jules,Ahoka,Ahoka,56,Midfielder
