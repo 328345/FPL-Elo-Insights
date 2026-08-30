@@ -3,7 +3,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 517052,166,Nicolas,Jackson,N.Jackson,7,Forward
 487992,596,Matteo,Ruggeri,Ruggeri,7,Defender
 513086,93,Jannik,Schuster,Schuster,94,Defender
-513418,94,Kevin,Schade,Schade,94,Midfielder
 533463,95,Dango,Ouattara,O.Dango,94,Midfielder
 440089,96,Mikkel,Damsgaard,Damsgaard,94,Midfielder
 207283,97,Mathias,Jensen,Jensen,94,Midfielder
@@ -49,6 +48,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 612855,600,Ibrahim,Osman,Osman,36,Midfielder
 611695,605,Malick,Yalcouyé,Yalcouyé,36,Midfielder
 512123,614,Jaouen,Hadjam,Hadjam,36,Defender
+98980,28,Emiliano,Martínez Romero,Martinez,8,Goalkeeper
 244850,40,Morgan,Rogers,Rogers,8,Midfielder
 56979,101,Jordan,Henderson,Henderson,8,Midfielder
 50175,136,Danny,Welbeck,Welbeck,8,Forward
@@ -398,7 +398,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 119471,446,Fabian,Schär,Schär,4,Defender
 220237,447,Sven,Botman,Botman,4,Defender
 78916,448,Dan,Burn,Burn,4,Defender
-487838,449,Lewis,Hall,Hall,4,Defender
 439509,557,Christos,Tzolis,Tzolis,3,Midfielder
 215711,44,Leon,Bailey,Bailey,7,Midfielder
 122806,45,John,McGinn,McGinn,7,Midfielder
@@ -474,7 +473,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 219847,26,Kai,Havertz,Havertz,3,Forward
 205651,27,Gabriel,Fernando de Jesus,G.Jesus,3,Forward
 199798,31,Ezri,Konsa Ngoyo,Konsa,3,Defender
-98980,28,Emiliano,Martínez Romero,Martinez,7,Goalkeeper
 72147,29,Marco,Bizot,M.Bizot,7,Goalkeeper
 101188,30,Lucas,Digne,Digne,7,Defender
 199796,32,Matty,Cash,Cash,7,Defender
@@ -490,6 +488,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 494928,573,Juanlu,Sánchez,Sanchez,91,Defender
 432830,84,Nathan,Collins,Collins,94,Defender
 444765,85,Sepp,van den Berg,Van den Berg,94,Defender
+513418,94,Kevin,Schade,Schade,94,Midfielder
 155408,71,Lewis,Cook,Cook,91,Midfielder
 593174,107,Kaye,Furo,Furo,94,Forward
 83299,116,Lewis,Dunk,Dunk,36,Defender
@@ -508,6 +507,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 535928,376,Stefan,Bajčetić Maquieira,Bajcetic,14,Midfielder
 551499,377,Victor,Munoz,Munoz,14,Midfielder
 219168,379,Alexander,Isak,Isak,14,Forward
+487838,449,Lewis,Hall,Hall,4,Defender
 441191,450,Tino,Livramento,Livramento,4,Defender
 545477,451,Alex,Murphy,A.Murphy,4,Defender
 201666,453,Harvey,Barnes,Barnes,4,Midfielder
