@@ -395,7 +395,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 465694,405,Nico,González Iglesias,N.Gonzalez,4,Midfielder
 98747,442,Nick,Pope,Pope,4,Goalkeeper
 81441,443,Mark,Gillespie,Gillespie,4,Goalkeeper
-554578,444,Ewen,Jaouen,Jaouen,4,Goalkeeper
 439509,557,Christos,Tzolis,Tzolis,3,Midfielder
 215711,44,Leon,Bailey,Bailey,7,Midfielder
 122806,45,John,McGinn,McGinn,7,Midfielder
@@ -508,6 +507,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 158983,374,Endo,Wataru,Endo,14,Midfielder
 535928,376,Stefan,Bajčetić Maquieira,Bajcetic,14,Midfielder
 491501,378,James,McConnell,McConnell,14,Midfielder
+554578,444,Ewen,Jaouen,Jaouen,4,Goalkeeper
 465642,445,Malick,Thiaw,Thiaw,4,Defender
 119471,446,Fabian,Schär,Schär,4,Defender
 220237,447,Sven,Botman,Botman,4,Defender
