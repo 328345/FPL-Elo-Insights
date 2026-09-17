@@ -29,6 +29,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 465730,115,Maxim,De Cuyper,De Cuyper,36,Defender
 83299,116,Lewis,Dunk,Dunk,36,Defender
 550090,117,Diego,Coppola,Coppola,36,Defender
+223434,118,Igor Julio,dos Santos de Paulo,Igor,36,Defender
 439509,557,Christos,Tzolis,Tzolis,3,Midfielder
 215711,44,Leon,Bailey,Bailey,7,Midfielder
 122806,45,John,McGinn,McGinn,7,Midfielder
@@ -77,7 +78,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 607464,88,Michael,Kayode,Kayode,94,Defender
 194010,89,Rico,Henry,Henry,94,Defender
 472713,90,Aaron,Hickey,Hickey,94,Defender
-223434,118,Igor Julio,dos Santos de Paulo,Igor,36,Defender
+451490,119,João Pedro,Loureiro da Costa,Costinha,36,Defender
 154561,1,David,Raya Martín,Raya,3,Goalkeeper
 109745,2,Kepa,Arrizabalaga Revuelta,Arrizabalaga,3,Goalkeeper
 437495,3,Illan,Meslier,Meslier,3,Goalkeeper
@@ -123,7 +124,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 513418,94,Kevin,Schade,Schade,94,Midfielder
 513545,565,Mamadou,Sangaré,M.Sangaré,94,Midfielder
 231416,113,Ferdi,Kadıoğlu,F.Kadıoğlu,36,Defender
-451490,119,João Pedro,Loureiro da Costa,Costinha,36,Defender
 454490,120,Michael,Svoboda,Svoboda,36,Defender
 451340,121,Mitoma,Kaoru,Mitoma,36,Midfielder
 592031,122,Yankuba,Minteh,Minteh,36,Midfielder
@@ -132,13 +132,13 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 514254,127,Diego,Gómez Amarilla,Gomez,36,Midfielder
 536916,128,Facundo,Buonanotte,Buonanotte,36,Midfielder
 509416,129,Yasin,Ayari,Ayari,36,Midfielder
+467779,130,Mats,Wieffer,Wieffer,36,Defender
 155408,71,Lewis,Cook,Cook,91,Midfielder
 593174,107,Kaye,Furo,Furo,94,Forward
 49262,111,Jason,Steele,Steele,36,Goalkeeper
 204120,114,Olivier,Boscagli,Boscagli,36,Defender
 60307,124,Pascal,Groß,Groß,36,Midfielder
 219249,126,Matt,O'Riley,O'Riley,36,Midfielder
-467779,130,Mats,Wieffer,Wieffer,36,Defender
 597320,132,Harry,Howell,Howell,36,Midfielder
 549074,133,Tom,Watson,Watson,36,Midfielder
 556637,134,Nehemiah,Oriola,Oriola,36,Midfielder
@@ -229,8 +229,8 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 172649,198,Dean,Henderson,Henderson,31,Goalkeeper
 121709,199,Walter,Benítez,Benitez,31,Goalkeeper
 427623,202,Chris,Richards,Richards,31,Defender
-629397,192,Kai,Andrews,Andrews,9,Midfielder
 651426,203,Jaydee,Canvot,Canvot,31,Defender
+629397,192,Kai,Andrews,Andrews,9,Midfielder
 244723,204,Tyrick,Mitchell,Mitchell,31,Defender
 218364,205,Borna,Sosa,Sosa,31,Defender
 515621,206,Chadi,Riad Dnanou,Chadi Riad,31,Defender
@@ -331,11 +331,11 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 465525,291,Eliot,Matazo,Matazo,88,Midfielder
 208481,292,Abdülkadir,Ömür,Ömür,88,Midfielder
 490161,293,Abu,Kamara,Kamara,88,Midfielder
+553783,294,Óscar,Zambrano,Zambrano,88,Midfielder
 449428,283,Matty,Jacob,Jacob,88,Defender
 661800,284,Cathal,McCarthy,McCarthy,88,Defender
 160817,285,Paddy,McNair,McNair,88,Defender
 540324,286,Mohamed,Belloumi,Belloumi,88,Midfielder
-553783,294,Óscar,Zambrano,Zambrano,88,Midfielder
 169432,295,Oli,McBurnie,McBurnie,88,Forward
 213292,296,David,Akintola,Akintola,88,Midfielder
 470294,297,Darko,Gyabi,Gyabi,88,Midfielder
@@ -431,6 +431,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 551499,377,Victor,Munoz,Munoz,14,Midfielder
 491501,378,James,McConnell,McConnell,14,Midfielder
 219168,379,Alexander,Isak,Isak,14,Forward
+500058,382,Jayden,Danns,Danns,14,Forward
 210156,492,Taiwo,Awoniyi,Awoniyi,9,Forward
 114283,238,Jack,Grealish,Grealish,11,Midfielder
 449027,351,Giorgi,Mamardashvili,Mamardashvili,14,Goalkeeper
@@ -457,7 +458,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 535928,376,Stefan,Bajčetić Maquieira,Bajcetic,14,Midfielder
 510663,380,Hugo,Ekitiké,Ekitiké,14,Forward
 514514,381,Lewis,Koumas,Koumas,14,Midfielder
-500058,382,Jayden,Danns,Danns,14,Forward
 444884,383,Harvey,Elliott,Elliott,14,Midfielder
 445087,579,Ronald,Araujo,Araujo,14,Defender
 482616,627,Bradley,Barcola,Barcola,14,Midfielder
