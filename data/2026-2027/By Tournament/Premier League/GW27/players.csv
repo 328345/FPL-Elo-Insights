@@ -329,7 +329,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 219168,379,Alexander,Isak,Isak,14,Forward
 500058,382,Jayden,Danns,Danns,14,Forward
 445087,579,Ronald,Araujo,Araujo,14,Defender
-482616,627,Bradley,Barcola,Barcola,14,Midfielder
 448047,155,Enzo,Fernández,Enzo,43,Midfielder
 440993,237,Iliman,Ndiaye,Ndiaye,43,Midfielder
 204936,384,Gianluigi,Donnarumma,Donnarumma,43,Goalkeeper
@@ -506,6 +505,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 510663,380,Hugo,Ekitiké,Ekitiké,14,Forward
 514514,381,Lewis,Koumas,Koumas,14,Midfielder
 444884,383,Harvey,Elliott,Elliott,14,Midfielder
+482616,627,Bradley,Barcola,Barcola,14,Midfielder
 221820,419,Lisandro,Martínez,Martinez,1,Defender
 550864,420,Leny,Yoro,Yoro,1,Defender
 606745,421,Ayden,Heaven,Heaven,1,Defender
