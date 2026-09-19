@@ -5,7 +5,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 690838,582,Brian,Madjo,Madjo,7,Forward
 487992,596,Matteo,Ruggeri,Ruggeri,7,Defender
 244858,100,Fábio,Freitas Gouveia Carvalho,Carvalho,94,Midfielder
-101282,289,Matt,Crooks,Crooks,88,Midfielder
+232905,287,Liam,Millar,Millar,88,Midfielder
 569577,606,Triston,Rowe,Rowe,7,Defender
 571380,607,Luka,Lynch,Lynch,7,Midfielder
 214590,611,Aaron,Wan-Bissaka,Wan-Bissaka,7,Defender
@@ -328,8 +328,8 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 193278,280,Lewie,Coyle,Coyle,88,Defender
 433590,281,Cody,Drameh,Drameh,88,Defender
 232351,282,Ryan,Giles,Giles,88,Defender
-232905,287,Liam,Millar,Millar,88,Midfielder
 171270,288,Kieran,Dowell,Dowell,88,Midfielder
+101282,289,Matt,Crooks,Crooks,88,Midfielder
 243413,290,Regan,Slater,Slater,88,Midfielder
 465525,291,Eliot,Matazo,Matazo,88,Midfielder
 208481,292,Abdülkadir,Ömür,Ömür,88,Midfielder
@@ -657,7 +657,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 536661,551,Nilson,Angulo,N.Angulo,56,Midfielder
 441264,552,Brian,Brobbey,Brobbey,56,Forward
 437505,553,Wilson,Isidor,Isidor,56,Forward
-696104,613,Jules,Ahoka,Ahoka,56,Midfielder
 638411,612,Dayann,Méthalie,Methalie,56,Defender
+696104,613,Jules,Ahoka,Ahoka,56,Midfielder
 549940,646,Malick,Fofana,Fofana,56,Midfielder
 661313,651,Juan,Angulo,J.Angulo,56,Forward
