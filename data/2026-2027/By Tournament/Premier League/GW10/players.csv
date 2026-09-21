@@ -33,6 +33,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 465730,115,Maxim,De Cuyper,De Cuyper,36,Defender
 83299,116,Lewis,Dunk,Dunk,36,Defender
 223434,118,Igor Julio,dos Santos de Paulo,Igor,36,Defender
+500058,382,Jayden,Danns,Danns,14,Forward
 439509,557,Christos,Tzolis,Tzolis,3,Midfielder
 215711,44,Leon,Bailey,Bailey,7,Midfielder
 122806,45,John,McGinn,McGinn,7,Midfielder
@@ -461,7 +462,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 219168,379,Alexander,Isak,Isak,14,Forward
 510663,380,Hugo,Ekitiké,Ekitiké,14,Forward
 514514,381,Lewis,Koumas,Koumas,14,Midfielder
-500058,382,Jayden,Danns,Danns,14,Forward
 444884,383,Harvey,Elliott,Elliott,14,Midfielder
 445087,579,Ronald,Araujo,Araujo,14,Defender
 482616,627,Bradley,Barcola,Barcola,14,Midfielder
