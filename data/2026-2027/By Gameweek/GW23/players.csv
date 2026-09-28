@@ -2,9 +2,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 208706,452,Bruno,Guimarães Rodriguez Moura,Bruno G.,3,Midfielder
 517052,166,Nicolas,Jackson,N.Jackson,7,Forward
 481283,667,James,Wright,Wright,7,Goalkeeper
-467779,130,Mats,Wieffer,Wieffer,36,Defender
 556637,134,Nehemiah,Oriola,Oriola,36,Midfielder
-700308,135,Zadok,Yohanna,Yohanna,36,Midfielder
 608181,137,Stefanos,Tzimas,Tzimas,36,Forward
 647850,138,Charalampos,Kostoulas,Kostoulas,36,Forward
 487117,139,Evan,Ferguson,Ferguson,36,Forward
@@ -75,7 +73,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 684268,189,George,Shepherd,Shepherd,9,Midfielder
 469272,190,Loum,Tchaouna,Tchaouna,9,Midfielder
 492498,191,Raphael,Borges Rodrigues,Borges Rodrigues,9,Midfielder
-176412,193,Haji,Wright,Wright,9,Forward
 230730,194,Brandon,Thomas-Asante,Thomas-Asante,9,Forward
 218997,195,Ellis,Simms,Simms,9,Forward
 551262,196,Jahnoah,Markelo,Markelo,9,Forward
@@ -97,10 +94,10 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 515621,206,Chadi,Riad Dnanou,Chadi Riad,31,Defender
 242313,207,Oscar,Mingueza,Mingueza,31,Defender
 232185,208,Ismaïla,Sarr,Sarr,31,Midfielder
-690838,582,Brian,Madjo,Madjo,7,Forward
 496221,210,Adam,Wharton,Wharton,31,Midfielder
 488024,211,Yéremy,Pino Santos,Yeremy,31,Midfielder
 108413,212,Will,Hughes,Hughes,31,Midfielder
+690838,582,Brian,Madjo,Madjo,7,Forward
 152551,213,Jefferson,Lerma Solís,Lerma,31,Midfielder
 209400,214,Daichi,Kamada,Kamada,31,Midfielder
 489706,215,Justin,Devenny,Devenny,31,Midfielder
@@ -199,15 +196,16 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 470294,297,Darko,Gyabi,Gyabi,88,Midfielder
 462635,340,Joe,Gelhardt,Gelhardt,88,Midfielder
 169359,556,Matt,Targett,Targett,88,Defender
+445028,563,Hidemasa,Morita,Morita,88,Midfielder
+473284,572,Konstantinos,Tzolakis,Tzolakis,88,Goalkeeper
+552946,574,Jens,Hjertø-Dahl,Hjertø-Dahl,88,Midfielder
 487992,596,Matteo,Ruggeri,Ruggeri,7,Defender
 244858,100,Fábio,Freitas Gouveia Carvalho,Carvalho,94,Midfielder
 550090,117,Diego,Coppola,Coppola,36,Defender
 463067,125,Georginio,Rutter,Georginio,36,Forward
 536916,128,Facundo,Buonanotte,Buonanotte,36,Midfielder
+467779,130,Mats,Wieffer,Wieffer,36,Defender
 500957,298,Enis,Destan,Destan,88,Forward
-445028,563,Hidemasa,Morita,Morita,88,Midfielder
-473284,572,Konstantinos,Tzolakis,Tzolakis,88,Goalkeeper
-552946,574,Jens,Hjertø-Dahl,Hjertø-Dahl,88,Midfielder
 608227,576,Elliot,Stroud,Stroud,88,Midfielder
 597462,585,Lucas,Herrington,Herrington,88,Defender
 606930,586,Nobel,Mendy,Mendy,88,Defender
@@ -296,6 +294,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 448047,155,Enzo,Fernández,Enzo,43,Midfielder
 122074,386,Marcus,Bettinelli,Bettinelli,43,Goalkeeper
 209036,388,Marc,Guéhi,Guéhi,43,Defender
+465351,389,Matheus,Nunes,Matheus N.,43,Defender
 569577,606,Triston,Rowe,Rowe,7,Defender
 571380,607,Luka,Lynch,Lynch,7,Midfielder
 214590,611,Aaron,Wan-Bissaka,Wan-Bissaka,7,Defender
@@ -330,7 +329,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 532529,123,Jack,Hinshelwood,Hinshelwood,36,Midfielder
 514254,127,Diego,Gómez Amarilla,Gomez,36,Midfielder
 509416,129,Yasin,Ayari,Ayari,36,Midfielder
-465351,389,Matheus,Nunes,Matheus N.,43,Defender
 171314,390,Rúben,dos Santos Gato Alves Dias,Rúben,43,Defender
 494307,394,Max,Alleyne,Alleyne,43,Defender
 477064,395,Rico,Lewis,Lewis,43,Defender
@@ -455,6 +453,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 513545,565,Mamadou,Sangaré,M.Sangaré,94,Midfielder
 231416,113,Ferdi,Kadıoğlu,F.Kadıoğlu,36,Defender
 549074,133,Tom,Watson,Watson,36,Midfielder
+700308,135,Zadok,Yohanna,Yohanna,36,Midfielder
 155408,71,Lewis,Cook,Cook,91,Midfielder
 593174,107,Kaye,Furo,Furo,94,Forward
 49262,111,Jason,Steele,Steele,36,Goalkeeper
@@ -463,6 +462,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 219249,126,Matt,O'Riley,O'Riley,36,Midfielder
 597320,132,Harry,Howell,Howell,36,Midfielder
 538007,594,Promise,David,David,36,Forward
+176412,193,Haji,Wright,Wright,9,Forward
 629397,192,Kai,Andrews,Andrews,9,Midfielder
 449428,283,Matty,Jacob,Jacob,88,Defender
 661800,284,Cathal,McCarthy,McCarthy,88,Defender
