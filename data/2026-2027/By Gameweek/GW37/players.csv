@@ -555,7 +555,6 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 200089,460,Joe,Willock,Willock,4,Midfielder
 611665,461,Bazoumana,Touré,Touré,4,Midfielder
 636852,462,Sean,Steur,Steur,4,Midfielder
-547027,543,Habib,Diarra,Diarra,56,Midfielder
 470313,463,Nick,Woltemade,Woltemade,4,Forward
 216646,464,Yoane,Wissa,Wissa,4,Forward
 538207,465,William,Osula,Osula,4,Forward
@@ -605,6 +604,7 @@ player_code,player_id,first_name,second_name,web_name,team_code,position
 438234,401,Omar,Marmoush,Marmoush,6,Forward
 510281,403,Sávio,Moreira de Oliveira,Sávio,6,Midfielder
 432422,455,Sandro,Tonali,Tonali,6,Midfielder
+547027,543,Habib,Diarra,Diarra,56,Midfielder
 184254,494,Guglielmo,Vicario,Vicario,6,Goalkeeper
 214572,495,Brandon,Austin,Austin,6,Goalkeeper
 485055,496,Antonín,Kinský,Kinsky,6,Goalkeeper
